@@ -10,7 +10,7 @@ function setup() {
     canvas = createCanvas(380, 380);
     canvas.center();
 
-    video = creatureCapture(VIDEO);
+    video = createCapture(VIDEO);
     video.hide();
     video.size(380, 380);
 
